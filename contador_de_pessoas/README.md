@@ -1,7 +1,7 @@
-# contador_de_pessoas
+# Marca Pontuação de truco
 
 Primeiro app feito em flutter para jogar truco
-
+Comecei fazendo um app de contagem de pessoas dentro de um restaurante mas acabou virando um marca tento de truco, como um bom mineiro que eu sou!
 ## Getting Started
 
 This project is a starting point for a Flutter application.
