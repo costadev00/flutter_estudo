@@ -1,6 +1,6 @@
 # contador_de_pessoas
 
-Primeiro app feito em flutter para contador de pessoas
+Primeiro app feito em flutter para jogar truco
 
 ## Getting Started
 
