@@ -33,9 +33,6 @@ class _HomeState extends State<Home> {
         _nos = 0;
         _eles = 0;
       }
-      if(true){
-        _nos++;
-      }
 
     });
   }
