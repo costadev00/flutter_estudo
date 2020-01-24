@@ -1,5 +1,5 @@
 <h1> Bem vindo ao repositório de códigos produzidos pelo Matheus enquanto estudava Flutter<h1>
- <p> have a nice tour</p>
+ <h5>have a nice tour</h5>
   <img src="https://media.giphy.com/media/14yzBgpfJSr5nO/giphy.gif" />
  <h2>Apps feitos durante o estudo do framework Flutter:</h2>
 <h3>1º APP - Marca Pontuação de truco</h3>
