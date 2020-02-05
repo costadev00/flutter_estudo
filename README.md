@@ -8,8 +8,8 @@
        <h4>App presente na play store</h4>
   <img src="https://media.giphy.com/media/xT9DPlAUKTl1GeZjC8/giphy.gif" />
   <h2>2º APP - Calculo do IMC</h2>
+  <h4> App feito em aproximadamente 1 semana. Uma experiência muito boa para reforçar conceitos básicos, como declarar uma imagem no pubspec.yaml. App que calcula o Indíce de Massa Corpórea(IMC), que informa o usuário se eles está em seu peso ideal ou com graus de obesidade ou baixo peso.</h4>
     <img src="https://media.giphy.com/media/9Ai5dIk8xvBm0/giphy.gif" />
-    <h4> App feito em aproximadamente 1 semana. Uma experiência muito boa para reforçar conceitos básicos, como declarar uma imagem no pubspec.yaml. App que calcula o Indíce de Massa Corpórea(IMC), que informa o usuário se eles está em seu peso ideal ou com graus de obesidade ou baixo peso.</h4>
   
   <h2>3º APP - Conversor de moedas(ainda em desenvolvimento)</h2>
     <h4> App que faz a conversão de real, euro, e dólar, o aprendizado diferenciado nesse app é que vou utilizar uma API para obter os dados atualizados. Os dados viram em JSON.</h4>
