@@ -21,6 +21,9 @@ class _HomeState extends State<Home> {
 
   void _changenos(int add1){
     setState(() {
+      if(_nos < 0){
+        _nos = 0;
+      }
       _nos += add1;
       if(_nos > _eles){
         _infoText = "Dando $_nome1!";
@@ -39,6 +42,9 @@ class _HomeState extends State<Home> {
 
     void _changeeles(int add){
     setState(() {
+      if(_eles<0){
+        _eles=0;
+      }
       _eles += add;
         if(_eles > _nos){
         _infoText = "Dando $_nome2 !";

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "41970482549",
+    "firebase_url": "https://marca-tento-370b0.firebaseio.com",
+    "project_id": "marca-tento-370b0",
+    "storage_bucket": "marca-tento-370b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41970482549:android:42a15a7b61e8e6e5f0a73c",
+        "android_client_info": {
+          "package_name": "br.com.costa.contador_de_pessoas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41970482549-4ocnplpc3328d2pb14l13mbatvo9ri6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiH-VEsRHeU2ZU_VUSmb9_aebAlDuO0Os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41970482549-4ocnplpc3328d2pb14l13mbatvo9ri6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+	"project_info": {
+		"project_number": "157113844832",
+		"firebase_url": "https://calculo-do-imc.firebaseio.com",
+		"project_id": "calculo-do-imc",
+		"storage_bucket": "calculo-do-imc.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:157113844832:android:e9dafbcd6541a90ecb6f05",
+				"android_client_info": {
+					"package_name": "br.com.costa.calculo_do_imc"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "157113844832-mg5n9b1rj47rdji43cujp33gorgacn7f.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyBj-NCsnBm7qajyFG53yHMCJzT5zatWSJg"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "157113844832-mg5n9b1rj47rdji43cujp33gorgacn7f.apps.googleusercontent.com",
+							"client_type": 3
+						}
+					]
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}
