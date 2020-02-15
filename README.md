@@ -12,5 +12,15 @@
     <img src="https://media.giphy.com/media/9Ai5dIk8xvBm0/giphy.gif" />
   
   <h2>3º APP - Conversor de moedas(ainda em desenvolvimento)</h2>
-    <h4> App que faz a conversão de real, euro, e dólar, o aprendizado diferenciado nesse app é que vou utilizar uma API para obter os dados atualizados. Os dados viram em JSON.</h4>
+    <h4> App que faz a conversão dinâmica de moedas. Com um layout bonito e amigável, este app pode ser apresentar bastante útil para algumas pessoas. O aprendizado diferenciado nesse app é que vou utilizar uma API para obter os dados atualizados e de forma produtiva e confiável Os dados seram obtidos em formato JSON</h4>
+    <h4>
+      <ul>
+        <li>Real(R$)</li>
+        <li>Dólar (US$)</li>
+        <li>Euro (€)</li>
+        <li>Libra (£)</li>
+        <li>Peso Argentido(ARS$)</li>
+        <li>Bitcoin (₿)</li>
+      </ul>
+    </h4>
 <img src="https://media.giphy.com/media/uFtywzELtkFzi/giphy.gif" />
