@@ -1,16 +1,12 @@
-# conversor_de_moedas
-
-Aplicação que converte as moedas euro, dólar e real para seus respectivos valores. Será utilizado uma API para consultar esses dados
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h1> Conversor de moedas</h1>
+<h3> App que faz a conversão dinâmica de moedas. Com um layout bonito e amigável, este app pode ser apresentar bastante útil para algumas pessoas. O aprendizado diferenciado nesse app é que vou utilizar uma API para obter os dados atualizados. Os dados seram obtidos em formato JSON.</h3>
+<h3>Moedas convertidas:<h3>
+<ul>
+  <li>Real(R$)</li>
+  <li>Dólar (US$)</li>
+  <li>Euro (€)</li>
+  <li>Libra (£)</li>
+  <li>Peso Argentido(ARS$)</li>
+  <li>Bitcoin (₿)</li>
+</ul>
+  <img src="https://media.giphy.com/media/uFtywzELtkFzi/giphy.gif" />
