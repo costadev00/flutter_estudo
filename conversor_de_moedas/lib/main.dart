@@ -44,6 +44,14 @@ class _HomeState extends State<Home> {
   double libra;
   double bitcoin;
   double peso;
+
+  void _estaVazio(text) {
+    if (text.isEmpty) {
+      _resetar();
+      return;
+    }
+  }
+
   void _resetar() {
     realController.text = "";
     dolarController.text = "";
@@ -54,10 +62,7 @@ class _HomeState extends State<Home> {
   }
 
   void _realConvertido(String text) {
-    if (text.isEmpty) {
-      _resetar();
-      return;
-    }
+    _estaVazio(text);
     double real = double.parse(text);
     dolarController.text = (real / dolar).toStringAsFixed(2);
     euroController.text = (real / euro).toStringAsFixed(2);
@@ -67,10 +72,7 @@ class _HomeState extends State<Home> {
   }
 
   void _dolarConvertido(String text) {
-    if (text.isEmpty) {
-      _resetar();
-      return;
-    }
+    _estaVazio(text);
     double dolar = double.parse(text);
     realController.text = (dolar * this.dolar).toStringAsFixed(2);
     euroController.text = (dolar * this.dolar / euro).toStringAsFixed(2);
@@ -80,10 +82,7 @@ class _HomeState extends State<Home> {
   }
 
   void _euroConvertido(String text) {
-    if (text.isEmpty) {
-      _resetar();
-      return;
-    }
+    _estaVazio(text);
     double euro = double.parse(text);
     realController.text = (euro * this.euro).toStringAsFixed(2);
     dolarController.text = (euro * this.euro / dolar).toStringAsFixed(2);
@@ -93,6 +92,7 @@ class _HomeState extends State<Home> {
   }
 
   void _libraConvertido(String text) {
+    _estaVazio(text);
     double libra = double.parse(text);
     realController.text = (libra * this.libra).toStringAsFixed(2);
     dolarController.text = (libra * this.libra / dolar).toStringAsFixed(2);
@@ -102,6 +102,7 @@ class _HomeState extends State<Home> {
   }
 
   void _pesoConvertido(String text) {
+    _estaVazio(text);
     double peso = double.parse(text);
     realController.text = (peso * this.peso).toStringAsFixed(2);
     dolarController.text = (peso * this.peso / dolar).toStringAsFixed(2);
@@ -111,6 +112,7 @@ class _HomeState extends State<Home> {
   }
 
   void _bitConvertido(String text) {
+    _estaVazio(text);
     double bitcoin = double.parse(text);
     realController.text = (bitcoin * this.bitcoin).toStringAsFixed(2);
     dolarController.text = (bitcoin * this.bitcoin / dolar).toStringAsFixed(2);
