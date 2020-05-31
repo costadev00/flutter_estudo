@@ -66,9 +66,12 @@ class _HomeState extends State<Home> {
         // backgroundColor: Colors.cyan[50],
         body: Stack(
           children: <Widget>[
-           Container(
-            decoration: new BoxDecoration(image: new DecorationImage(image: new AssetImage("images/background.png"), fit: BoxFit.fill)),
-          ),
+            Container(
+              decoration: new BoxDecoration(
+                  image: new DecorationImage(
+                      image: new AssetImage("images/background.png"),
+                      fit: BoxFit.fill)),
+            ),
             SingleChildScrollView(
               padding: EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
               child: Form(
@@ -94,7 +97,7 @@ class _HomeState extends State<Home> {
                       style: TextStyle(color: Colors.red[800], fontSize: 20.0),
                     ),
                     TextFormField(
-                      validator: (value){
+                      validator: (value) {
                         if (value.isEmpty) {
                           return "Insira a sua altura!";
                         }
