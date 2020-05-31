@@ -1,5 +1,5 @@
 <h1> Flutter Estudo<h1>
-<h2>Bem vindo ao repositório de códigos produzidos pelo Matheus enquanto estudava Flutter  <img src="/not-necessary/flutter.png"/><h2>
+<h2>Bem vindo ao repositório de códigos produzidos pelo Matheus enquanto estudava Flutter<h2>
 <h5>have a nice tour</h5>
 <img src="https://media.giphy.com/media/14yzBgpfJSr5nO/giphy.gif"/>
 <h2>Apps feitos(pastas deste repositório) durante o estudo do framework Flutter:</h2>
